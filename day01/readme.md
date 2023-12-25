@@ -2,6 +2,9 @@ Because the second part is an extension of the first, i.e. the code for the
 second part also gives the correct answer to the input of the first,I will only
 include the code for the second part.
 
+You can run this program by piping the input, i.e. `cat input.txt | raku
+part2.raku`.
+
 ```raku
 my @n=('1'…'9')».uniname».words»[1]».lc;
 my $a=@n.join('|');

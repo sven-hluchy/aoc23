@@ -1,5 +1,11 @@
 # aoc23
-<center>Advent of code 2023 done in raku in as few characters as
-possible.</center>
 
-To count the characters in the files, I use `wc -m ...`.
+<style>
+.centre { text-align: center }
+</style>
+
+<div class=centre>
+Advent of code 2023 done in raku in as few characters as possible.
+</div>
+
+To count the characters in the files, I use `wc -m *.raku`.
